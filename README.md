@@ -10,7 +10,7 @@ They will also be able to tick the task as completed and delete it.
 
 ## Demo
 
-[dondeptu.github.io/to-do-list/](https://dondeptu.github.io/to-do-list/)
+[dondeptu.github.io/to-do-list-react](https://dondeptu.github.io/to-do-list-react/)
 
 ## Preview
 
