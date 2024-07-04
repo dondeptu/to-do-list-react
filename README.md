@@ -2,7 +2,8 @@
 
 # To do list
 
-Hi! This is a simple to do list website I created as part of learning React.js.
+Hi! This is a simple to-do list website I created as part of learning React.js for the first time.<br>
+I refactored the previous application from vanilla JavaScript to React, but for now, it doesn't have any interactions.
 
 The user will be able to write a task and press a button to add the task to the list. 
 They will also be able to tick the task as completed and delete it.
