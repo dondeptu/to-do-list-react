@@ -1,0 +1,12 @@
+.container {
+    max-width: 900px;
+    padding: 20px;
+    margin: 0 auto;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 15px;
+    }
+}
