@@ -24,6 +24,11 @@ Project is created with:
 ![js badge](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![react badge](https://img.shields.io/badge/REACT.JS-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
 
+- state hook
+- localStorage
+- Immutability
+- BEM
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
