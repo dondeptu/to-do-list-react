@@ -1,4 +1,3 @@
-import "./style.css";
 import { Wrapper } from "./styled";
 
 const Container = ({ children }) => (
