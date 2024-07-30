@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 export const Button = styled.button`
     border: none;
     background-color: transparent;
-    color: teal;
+    color: ${({ theme }) => theme.colors.teal};
     margin-left: 10px;
     transition: color 0.4s;
 
@@ -18,11 +18,11 @@ export const Button = styled.button`
     }
 
     &:hover {
-        color: hsl(180, 100%, 35%);
+        color: ${({ theme }) => theme.colors.persianGreen};
     }
 
     &:active {
-        color: hsl(180, 100%, 40%);
+        color: ${({ theme }) => theme.colors.bondiBlue};
     }
 
     ${({ hidden }) => hidden && css`
@@ -30,6 +30,6 @@ export const Button = styled.button`
     `}
 
     ${({ disabled }) => disabled && css`
-        color: #ccc;
+        color: ${({ theme }) => theme.colors.grey};
     `}
 `;

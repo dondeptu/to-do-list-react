@@ -12,24 +12,24 @@ export const StyledForm = styled.form`
 `;
 
 export const Button = styled.button`
-    background-color: teal;
-    color: #fff;
+    background-color: ${({ theme }) => theme.colors.teal};
+    color: ${({ theme }) => theme.colors.white};
     border: none;
     padding: 10px;
     transition: 0.5s;
 
     &:hover {
-        background-color: hsl(180, 100%, 30%);
+        background-color: ${({ theme }) => theme.colors.persianGreen};
         transform: scale(1.2);
     }
 
     &:active {
-        background-color: hsl(180, 100%, 35%);
+        background-color: ${({ theme }) => theme.colors.bondiBlue};
     }
 `;
 
 export const NewTask = styled.input`
-    border: 2px solid #ddd;
+    border: 2px solid ${({ theme }) => theme.colors.grey};
     padding: 10px;
 
     @media(max-width: 767px) {
