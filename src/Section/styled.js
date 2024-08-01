@@ -14,7 +14,7 @@ export const Header = styled.header`
     grid-template-columns: auto auto;
     justify-content: space-between;
 
-    @media(max-width: 767px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         grid-template-columns: 1fr;
         gap: 15px;
     }
@@ -23,7 +23,7 @@ export const Header = styled.header`
 export const Container = styled.div`
     padding: 20px;
 
-    @media(max-width: 767px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         padding: 15px;
     }
 `;
