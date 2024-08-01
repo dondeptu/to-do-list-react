@@ -2,11 +2,14 @@
 
 # To do list
 
-Hi! This is a simple to-do list website I created as part of learning React.js for the first time.<br>
-I refactored the previous application from vanilla JavaScript to React and added interactions using the state hook.
+Hi! This is a simple to-do list website I created as part of learning React.js.<br>
+I refactored the previous application from vanilla JavaScript to React and added interactions.
 
 The user can write a task and press a button to add the task to the list.<br>
 You can also mark the task as completed and delete it.
+
+The application also has two buttons: "Ukryj/Pokaż ukończone" and "Ukończ wszystkie". The first toggles the display of completed tasks, while the second marks all tasks in the list as completed."
+
 
 ## Demo
 
@@ -24,10 +27,21 @@ Project is created with:
 ![js badge](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![react badge](https://img.shields.io/badge/REACT.JS-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
 
-- state hook
+- Hooks:
+    - useState
+    - useEffect
+    - useRef
+- Custom hooks:
+    - useTasks
+- Styled Components
+    - GlobalStyle
+- Theme
+- layout:
+    - Grid
+    - Flexbox
+- Media Queries
 - localStorage
 - Immutability
-- BEM
 
 # Getting Started with Create React App
 
