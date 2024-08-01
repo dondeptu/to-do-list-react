@@ -33,6 +33,7 @@ Project is created with:
     - useRef
 - Custom hooks:
     - useTasks
+    - useLocalStorageState
 - Styled Components
     - GlobalStyle
 - Theme
