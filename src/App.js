@@ -2,9 +2,9 @@ import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
-import Container from "./Container";
 import { useState } from "react";
 import { useTasks } from "./useTasks";
+import { Wrapper } from "./Wrapper";
 
 function App() {
   const [hideDoneTask, setHideDoneTask] = useState(false);
@@ -22,7 +22,7 @@ function App() {
   } = useTasks();
 
   return (
-    <Container>
+    <Wrapper>
       <h1>Lista zadań</h1>
       <Section
         title="Dodaj nowe zadanie"
@@ -46,7 +46,7 @@ function App() {
             setAllDone={setAllDone}
           />}
       />
-    </Container>
+    </Wrapper>
   );
 }
 
