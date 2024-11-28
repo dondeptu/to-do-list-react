@@ -1,13 +1,15 @@
+import { nanoid } from "@reduxjs/toolkit";
+
 const tasks = [
     {
-        id: 1,
         content: "lekcja pianina",
         done: true,
+        id: nanoid(),
     },
     {
-        id: 2,
         content: "spotkanie 16:30",
         done: false,
+        id: nanoid(),
     },
 ];
 
