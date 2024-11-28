@@ -2,8 +2,7 @@
 
 # To do list
 
-Hi! This is a simple to-do list website I created as part of learning React.js.<br>
-I refactored the previous application from vanilla JavaScript to React and added interactions.
+Hi! This is a simple to-do list website I created as part of learning React.js and Redux.<br>
 
 The user can write a task and press a button to add the task to the list.<br>
 You can also mark the task as completed and delete it.
@@ -22,11 +21,13 @@ The application also has two buttons: "Ukryj/Pokaż ukończone" and "Ukończ wsz
 ## Technologies
 Project is created with:
 
-![css badge](https://img.shields.io/badge/CSS-%231572B6?style=for-the-badge&logo=css3&logoColor=white)
+![css Badge](https://img.shields.io/badge/CSS-%23663399?style=for-the-badge&logo=CSS3&logoColor=white&logoSize=auto)
 ![html badge](https://img.shields.io/badge/HTML-%23E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![js badge](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![react badge](https://img.shields.io/badge/REACT.JS-%2361DAFB?style=for-the-badge&logo=react&logoColor=black)
 
+- Redux
+    - Toolkit
 - Hooks:
     - useState
     - useEffect
@@ -36,13 +37,15 @@ Project is created with:
     - useLocalStorageState
 - Styled Components
     - GlobalStyle
-- Theme
+    - Theme
 - layout:
     - Grid
     - Flexbox
 - Media Queries
 - localStorage
 - Immutability
+- Normalize CSS
+- BEM convention
 
 # Getting Started with Create React App
 
