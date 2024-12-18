@@ -1,14 +1,15 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Button } from "../Button";
-import { fetchExampleTasks } from "../tasksSlice";
+import { fetchExampleTasks, selectIsLoading } from "../tasksSlice";
 
 
 const FetchExampleTasksButton = () => {
     const dispatch = useDispatch();
+    const loading = useSelector(selectIsLoading);
 
     return (
-        <Button onClick={() => dispatch(fetchExampleTasks())}>
-            Pobierz przykładowe zadania
+        <Button disabled={loading} onClick={() => dispatch(fetchExampleTasks())}>
+            {loading ? "Ładowanie..." : "Pobierz przykładowe zadania"}
         </Button>
     );
 };
