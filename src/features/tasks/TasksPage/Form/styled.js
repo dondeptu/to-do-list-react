@@ -27,12 +27,3 @@ export const Button = styled.button`
         background-color: ${({ theme }) => theme.colors.bondiBlue};
     }
 `;
-
-export const NewTask = styled.input`
-    border: 2px solid ${({ theme }) => theme.colors.grey};
-    padding: 10px;
-
-    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-        min-width: 50%;
-    }
-`;

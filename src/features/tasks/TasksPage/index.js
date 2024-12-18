@@ -2,6 +2,7 @@ import Form from "./Form";
 import TaskList from "./TaskList";
 import Buttons from "./Buttons";
 import Section from "../../../common/Section";
+import Search from "./Search";
 import { Wrapper } from "../../../Wrapper";
 import FetchExampleTasksButton from "./fetchExampleTasksButton";
 
@@ -13,6 +14,11 @@ function TasksPage() {
         title="Dodaj nowe zadanie"
         extraHeaderContent={<FetchExampleTasksButton />}
         body={<Form />}
+      />
+
+      <Section
+        title="Wyszukiwarka"
+        body={<Search />}
       />
 
       <Section
