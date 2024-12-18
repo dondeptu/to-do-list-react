@@ -1,11 +1,11 @@
 import Form from "./Form";
 import TaskList from "./TaskList";
 import Buttons from "./Buttons";
-import Section from "../../common/Section";
-import { Wrapper } from "../../Wrapper";
+import Section from "../../../common/Section";
+import { Wrapper } from "../../../Wrapper";
 import FetchExampleTasksButton from "./fetchExampleTasksButton";
 
-function Tasks() {
+function TasksPage() {
   return (
     <Wrapper>
       <h1>Lista zadań</h1>
@@ -24,4 +24,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;
