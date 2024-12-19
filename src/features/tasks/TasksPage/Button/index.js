@@ -12,11 +12,11 @@ export const Button = styled.button`
         flex-basis: 100%;
     }
 
-    &:hover {
+    &:hover:enabled {
         color: ${({ theme }) => theme.colors.persianGreen};
     }
 
-    &:active {
+    &:active:enabled {
         color: ${({ theme }) => theme.colors.bondiBlue};
     }
 
