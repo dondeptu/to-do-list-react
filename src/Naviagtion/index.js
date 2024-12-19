@@ -1,14 +1,15 @@
 import { Item, List, StyledNavLink } from "../Naviagtion/styled";
+import { toAuthor, toTasks } from "../routes";
 
 function Navigation() {
     return (
         <nav>
             <List>
                 <Item>
-                    <StyledNavLink to="/zadania">Zadania</StyledNavLink>
+                    <StyledNavLink to={toTasks()}>Zadania</StyledNavLink>
                 </Item>
                 <Item>
-                    <StyledNavLink to="/autor">O autorze</StyledNavLink>
+                    <StyledNavLink to={toAuthor()}>O autorze</StyledNavLink>
                 </Item>
             </List>
         </nav>
